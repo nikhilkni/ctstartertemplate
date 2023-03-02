@@ -60,4 +60,4 @@ jobs:
           app-name: 'ctstarter'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F83A980C21994F4BA087D6A589039120 }}
-          package: .
+          package: release.zip
